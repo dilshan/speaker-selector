@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PIC16F88
+D PIC16F88, 7K Flash, 368B SRAM, 256 EEPROM, DIP18
+K Flash-Based 8-Bit Microcontroller
+$ENDCMP
+#
+#End Doc Library
