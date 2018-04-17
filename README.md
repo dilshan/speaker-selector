@@ -8,4 +8,6 @@ In this system all audio lines are switching using 12 DPCO relays. To get optima
 
 Due to simplicity of the design, we construct our prototype version of this speaker-selector in *Perfboard*. When constructing this circuit make sure to **attach suitable separate heatsinks to *LM317* and *L7805* regulators**. Also to achieve higher stability we highly recommend to place C7 (0.1MFD) capacitor in between Pin 5 and 14 of U1 (*PIC16F88*) MCU. For seven-segment display we use 20mm single digit common cathode red color SSD. 
 
+![Internal view of the prototype version](https://farm1.staticflickr.com/805/39708847140_538e995cbc_z_d.jpg "Internal view of the prototype version")
+
 This speaker selector is an open hardware project, all it’s source codes and schematics are available to download in this repository. *PIC16F88* firmware used in this project is developed and compiled using XC8 (version 1.45) with MPLAB X IDE. Schematic of the speaker selector is designed using KiCad 4.0.7. All the above content in this project are released under the terms of [MIT](https://opensource.org/licenses/MIT) and [CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) licenses.
